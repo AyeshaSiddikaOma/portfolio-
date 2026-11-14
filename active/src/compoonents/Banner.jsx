@@ -36,15 +36,12 @@ const Banner = () => {
           </h1>
 
           <div className="flex mt-5 sm:flex-col  lg:flex-row">
-
             <div className="w-[70%]  flex  ">
- <div className="w-[25%] hiddn  lg:block"></div>
-            <div className="w-[80%] ">
-              <img src={man} alt="man" />
+              <div className="w-[25%] hiddn  lg:block"></div>
+              <div className="w-[80%] ">
+                <img src={man} alt="man" />
+              </div>
             </div>
-
-            </div>
-           
 
             <div className="w-[30%] sm:mx-auto py-10 ms-20">
               <p className="xl:w-75.5 sm:w-full md:w-full lg-w-fuli text-grey font-[15px] font-sora">
