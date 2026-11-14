@@ -3,9 +3,9 @@ const SkillCard = ({ head, percent, icon, description }) => {
   return (
     <>
       <div className="py-10 bg-black px-7 rounded-4xl box-border">
-        <div className="flex gap-10 items-center  ">
+        <div className="flex gap-5 items-center  ">
           <img src={icon} alt="" />
-          <h3 className="text-white opacity-80 w-31.25 font-sora text-[20px]">
+          <h3 className="text-white opacity-80 w-31.25  font-sora text-[20px]">
             {head}
           </h3>
         </div>

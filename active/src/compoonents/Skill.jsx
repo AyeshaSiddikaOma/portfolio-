@@ -10,18 +10,18 @@ const Skill = () => {
     <>
       <div className=" bg-back">
         <Container>
-          <div className="flex justify-between items-center">
+          <div className="flex sm:flex-col lg:flex-row  justify-between items-center">
             <div className="">
               <h3 className="text-indigo font-sora font-semibold text-[12px]">My Recent Work</h3>
               {" "}
-              <Headline />
+              <Headline className="sm:max-w-full"/>
             </div>
             <div className="">
               {" "}
               <Button btnName="Learn More" />
             </div>
           </div>
-          <div className="flex gap-x-5 mt-20">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 mt-20">
             {/* Card One */}
             <SkillCard
               icon={icon}
