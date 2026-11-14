@@ -35,7 +35,7 @@ const Banner = () => {
             <span>Motion</span>
           </h1>
 
-          <div className="flex mt-5 sm:flex-col  lg:flex-row">
+          <div className=" mt-5   flex flex-col  lg:flex-row  ">
             <div className="w-[70%]  flex  ">
               <div className="w-[25%] hiddn  lg:block"></div>
               <div className="w-[80%] ">
