@@ -14,7 +14,7 @@ const Skill = () => {
             </div>
             <div className="">
               {" "}
-              <Button btnName="Let's Talk" />
+              <Button btnName="Learn More" />
             </div>
           </div>
         </Container>
