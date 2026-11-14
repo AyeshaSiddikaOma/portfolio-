@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 920px;
+  --breakpoint-xl: 1180px;
+  --breakpoint-xxl: 1500px;
+  --font-sora: "Sora", sans-serif;
+  --color-indigo: #8750F7;
+  --color-dark: #2A1454;
+  --color-kalo: #050709;
+  --color-back: #140C1C;
+  --color-grey: #747779;
+}
+@utility container{
+    @apply max-w-[1780px] mx-auto 
+}
+@utility btn {
+    @apply flex items-center font-sora transition-transform duration-300 hover:-translate-y-1 gap-4 bg-linear-to-r from-indigo via-dark to-indigo  py-3.75 px-8.75  text-white font-bold text-[15px] rounded-full
+}
+
+@utility navLine {
+  @apply relative cursor-pointer;
+
+  &::after {
+    content: "";
+    @apply absolute -bottom-2 left-0 h-0.75 w-0 bg-white opacity-80 transition-all duration-300;
+  }
+
+  &:hover::after {
+    @apply w-full;
+  }
+}
