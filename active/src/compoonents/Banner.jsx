@@ -10,8 +10,8 @@ const Banner = () => {
     <>
       <Container>
         <div className="py-30 bg-back ">
-          <h1 className="text-white justify-center items-center  xxl:text-[203px]  font-sora flex font-semibold">
-            <span>Hello</span>
+          <h1 className="text-white justify-center items-center text-[70px]  md:text-[150px]  xxl:text-[203px]  font-sora flex font-semibold">
+            <span>Hello </span>
             <span>
               <CircularText
                 text="REACT*BITS*COMPONENTS*"
@@ -22,7 +22,7 @@ const Banner = () => {
                 fontSize={24}
                 draggable
                 hoverTilt={20}
-                className="custom-class"
+                className="custom-class   hidden lg:block"
                 tilt={0}
                 fontWeight={900}
                 letterSpacing={0}
@@ -32,7 +32,7 @@ const Banner = () => {
                 ring={false}
               />
             </span>{" "}
-            <span>Motion</span>
+            <span> Motion</span>
           </h1>
 
           <div className=" mt-5   flex flex-col  lg:flex-row  ">
@@ -50,12 +50,12 @@ const Banner = () => {
                 attention to detail allows me to enhance the mood.
               </p>
               <div className="relative">
-                <div className="w-75.5 h-1 bg-grey mt-5 "></div>
+                <div className="w-75 h-1 bg-grey mt-5 "></div>
                 <h3 class="text-[110px]  text-white font-bold">12+</h3>
                 <span className=" text-grey  font-[15px] font-sora absolute top-35 ms-30">
                   Years of Experience
                 </span>
-                <div className="w-75.5 h-1 bg-grey mt-5"></div>
+                <div className="w-75 h-1 bg-grey mt-5"></div>
               </div>
             </div>
           </div>
