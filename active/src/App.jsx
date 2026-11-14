@@ -1,12 +1,12 @@
 import Navbar from './compoonents/Navbar'
 import Banner from './compoonents/Banner';
-import Slide from './compoonents/Slide';
+import Slider from './compoonents/Slider';
 function App() {
   return (
     <>
     <Navbar/>
     <Banner/>
-    <Slide/>
+    <Slider/>
 
     </>
   );
