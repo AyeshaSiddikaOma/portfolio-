@@ -10,7 +10,7 @@ const Headline = () => {
   text="MY Mastering Video
 Editing Skills"
   color="#b5b5b5"
-  shineColor="#212121"
+  shineColor="#ffffff"
   speed={2}
   shineWidth={40}
   softness={0.8}
