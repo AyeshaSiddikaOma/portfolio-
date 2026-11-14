@@ -7,7 +7,8 @@ const Headline = () => {
   return (
     
 <ShinyText
-  text="Shiny Text Effect"
+  text="MY Mastering Video
+Editing Skills"
   color="#b5b5b5"
   shineColor="#212121"
   speed={2}

@@ -8,8 +8,10 @@ import man from "../assets/banner.png";
 const Banner = () => {
   return (
     <>
+            <div className=" bg-back">
+
       <Container>
-        <div className="py-30 bg-back ">
+        <div className="py-30 ">
           <h1 className="text-white justify-center items-center text-[70px]    xxl:text-[203px]  font-sora flex font-semibold">
             <span>Hello </span>
             <span>
@@ -69,6 +71,7 @@ const Banner = () => {
           </div>
         </div>
       </Container>
+      </div>
     </>
   );
 };

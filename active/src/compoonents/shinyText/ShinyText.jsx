@@ -62,7 +62,7 @@ const ShinyText = ({
   followPointer = false,
   pauseOnHover = false,
   disabled = false,
-  className = '',
+  className = 'text-[45px] w-[509px]  ',
   style
 }) => {
   const rootRef = useRef(null);
