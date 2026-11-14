@@ -53,7 +53,7 @@ const Banner = () => {
               </p>
               <div className="relative">
                 <div className="w-75 h-1 bg-grey mt-5 "></div>
-                <h3 class="text-[110px]  text-white font-bold">12+</h3>
+                <h3 className="text-[110px]  text-white font-bold">12+</h3>
                 <span className=" text-grey  font-[15px] font-sora absolute top-35 ms-30">
                   Years of Experience
                 </span>
