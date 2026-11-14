@@ -4,6 +4,9 @@ import Button from "./Button";
 import Container from "../compoonents/Container";
 import SkillCard from "./SkillCard";
 import icon from "../assets/icon.png";
+import icon2 from "../assets/icon2.png";
+import icon3 from "../assets/icon3.png";
+import icon4 from "../assets/icon4.png";
 
 const Skill = () => {
   return (
@@ -28,38 +31,45 @@ const Skill = () => {
               description="Adobe After Effects is a
               powerful software application
              used motion graphics."
-              percent="70"
+              percent="50"
               head="Adobe AfterEffect"
+                            oma="50"
+
             />
                         {/* Card One */}
 
             <SkillCard
-              icon={icon}
+              icon={icon2}
               description="Adobe After Effects is a
               powerful software application
              used motion graphics."
               percent="70"
               head="Adobe AfterEffect"
+                            oma="70"
+
             />
                         {/* Card One */}
 
             <SkillCard
-              icon={icon}
+              icon={icon3}
               description="Adobe After Effects is a
               powerful software application
              used motion graphics."
-              percent="70"
+              percent="60"
               head="Adobe AfterEffect"
+              oma="w-10%"
             />
                         {/* Card One */}
 
             <SkillCard
-              icon={icon}
+              icon={icon4}
               description="Adobe After Effects is a
               powerful software application
              used motion graphics."
-              percent="70"
+              percent="100"
               head="Adobe AfterEffect"
+                            oma="w-100%"
+
             />
           </div>
         </Container>

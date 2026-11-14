@@ -1,5 +1,5 @@
 import React from "react";
-const SkillCard = ({ head, percent, icon, description }) => {
+const SkillCard = ({ head, percent, icon, description ,oma}) => {
   return (
     <>
       <div className="py-10 bg-black px-7 rounded-4xl box-border">
@@ -16,7 +16,7 @@ const SkillCard = ({ head, percent, icon, description }) => {
           {percent}<b>%</b>
         </div>
         <div className="w-full bg-white rounded-full h-1.5">
-          <div className="bg-indigo h-1.5 rounded-full w-[45%]"></div>
+          <div className={`bg-indigo h-1.5 rounded-full ${oma} `}></div>
         </div>
       </div>
     </>
