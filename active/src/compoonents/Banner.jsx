@@ -10,7 +10,7 @@ const Banner = () => {
     <>
       <Container>
         <div className="py-30 bg-back ">
-          <h1 className="text-white justify-center items-center text-[70px]  md:text-[150px]  xxl:text-[203px]  font-sora flex font-semibold">
+          <h1 className="text-white justify-center items-center text-[70px]    xxl:text-[203px]  font-sora flex font-semibold">
             <span>Hello </span>
             <span>
               <CircularText
