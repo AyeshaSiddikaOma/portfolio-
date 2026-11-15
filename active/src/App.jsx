@@ -4,6 +4,8 @@ import Slider from './compoonents/Slider';
 import Skill from './compoonents/Skill';
 import Pixel from './compoonents/Pixel';
 import Help from './compoonents/Help';
+import SliderTwo from './compoonents/SliderTwo';
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
     <Skill/>
     <Pixel/>
     <Help/>
+    <SliderTwo className="rotate-2 w-full bg-indigo"  />
 
     </>
   );

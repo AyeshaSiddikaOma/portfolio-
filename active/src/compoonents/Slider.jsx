@@ -10,10 +10,11 @@ const imageLogos = [
   { src: imgThree, alt: "Company 3", href: "https://company3.com" },
 ];
 
-function Slider() {
+function Slider({className}) {
   return (
-    <div style={{ height: '200px', position: 'relative', overflow: 'hidden',background: '#140C1C', }} >
-      <LogoLoop
+  <div
+      className={`relative py-1 overflow-hidden bg-[#140C1C] ${className}`}
+    >      <LogoLoop
         logos={imageLogos}
         speed={100}
         direction="left"

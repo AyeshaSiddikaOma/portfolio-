@@ -16,6 +16,10 @@
   --color-back: #140C1C;
   --color-grey: #747779;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 @utility container{
     @apply max-w-[1780px] mx-auto 
 }
