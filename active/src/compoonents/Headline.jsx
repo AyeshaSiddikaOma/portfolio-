@@ -3,12 +3,11 @@ import ShinyText from '../compoonents/shinyText/ShinyText';
 
 import React from 'react'
 
-const Headline = () => {
+const Headline = ({head}) => {
   return (
     
 <ShinyText
-  text="MY Mastering Video
-Editing Skills"
+  text={head}
   color="#b5b5b5"
   shineColor="#ffffff"
   speed={2}

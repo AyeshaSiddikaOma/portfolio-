@@ -11,13 +11,14 @@ import icon4 from "../assets/icon4.png";
 const Skill = () => {
   return (
     <>
-      <div className=" bg-back">
+      <div className=" bg-back py-30">
         <Container>
           <div className="flex sm:flex-col lg:flex-row  justify-between items-center">
             <div className="">
               <h3 className="text-indigo font-sora font-semibold text-[12px]">My Recent Work</h3>
               {" "}
-              <Headline className="sm:max-w-full"/>
+              <Headline className="sm:max-w-full" head="MY Mastering Video
+Editing Skills"/>
             </div>
             <div className="">
               {" "}
