@@ -13,8 +13,8 @@ function Pixel() {
               <img src={bigimg} alt="" />
             </div>
             <div className="w-[50%]">
-              <h3 className="text-indigo font-sora font-semibold text-[12px]">
-                My Recent Work
+             <h3 className="text-indigo font-sora font-semibold text-[12px]">
+                My  Recent Work
               </h3>
 
               <Headline
@@ -28,7 +28,7 @@ function Pixel() {
                 marketing, email marketing,.
               </p>
               {/* box */}
-              <div className=" my-5 flex  bg-back rounded-3xl ">
+              <div className=" my-5 flex justify-between bg-back rounded-3xl ">
                 <div className="py-5 px-10  border-r-grey border-r " >
                   <h2 className="text-[48px] text-indigo font-bold font-sora" >30+</h2>
                   <h3 className=" text-grey font-[15px] font-sora">Years of Experience</h3>

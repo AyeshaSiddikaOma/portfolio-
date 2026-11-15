@@ -20,7 +20,7 @@
     @apply max-w-[1780px] mx-auto 
 }
 @utility btn {
-    @apply flex items-center font-sora transition-transform duration-300 hover:-translate-y-1 gap-4 bg-linear-to-r from-indigo via-dark to-indigo  py-3.75 px-8.75  text-white font-bold text-[15px] rounded-full
+    @apply flex  items-center font-sora transition-transform duration-300 hover:-translate-y-1 gap-4 bg-linear-to-r from-indigo via-dark to-indigo  py-3.75 px-8.75  text-white font-bold text-[15px] rounded-full
 }
 
 @utility navLine {

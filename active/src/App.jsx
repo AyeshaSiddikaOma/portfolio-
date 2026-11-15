@@ -3,6 +3,7 @@ import Banner from './compoonents/Banner';
 import Slider from './compoonents/Slider';
 import Skill from './compoonents/Skill';
 import Pixel from './compoonents/Pixel';
+import Help from './compoonents/Help';
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
     <Slider/>
     <Skill/>
     <Pixel/>
+    <Help/>
 
     </>
   );
