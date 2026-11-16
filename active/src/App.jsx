@@ -16,6 +16,7 @@ function App() {
     <Pixel/>
     <Help/>
     <SliderTwo className="rotate-2 w-full bg-indigo"  />
+    <SliderTwo className="-rotate-2 w-full bg-back"  />
 
     </>
   );
