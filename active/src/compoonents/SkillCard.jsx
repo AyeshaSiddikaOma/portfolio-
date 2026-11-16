@@ -2,7 +2,7 @@ import React from "react";
 const SkillCard = ({ head, percent, icon, description ,oma}) => {
   return (
     <>
-      <div className="py-10 bg-black px-7 rounded-4xl box-border">
+      <div className="py-10 bg-black px-7 rounded-4xl  box-border  transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-xl">
         <div className="flex gap-5 items-center  ">
           <img src={icon} alt="" />
           <h3 className="text-white opacity-80 w-31.25  font-sora text-[20px]">
