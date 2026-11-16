@@ -45,8 +45,8 @@ const Banner = () => {
               </div>
             </div>
 
-            <div className="w-[30%] sm:mx-auto py-10 ms-20">
-              <p className="xl:w-75.5 sm:w-full md:w-full lg-w-fuli text-grey font-[15px] font-sora">
+            <div className="w-full max-w-[30%] sm:mx-auto py-10 ms-20">
+              <p className="xl:w-75.5 w-full text-grey font-[15px] font-sora">
                 My role as a amplify tha story through my careful [Video Editor]
                 selection of footages, pacing, and visual style. My keen
                 attention to detail allows me to enhance the mood.

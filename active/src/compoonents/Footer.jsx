@@ -16,7 +16,7 @@ const Footer = () => {
       <div  style={{ backgroundImage: `url(${footer})` }}
               className="bg-cover bg-center py-30 font-sora">
         <Container>
-          <div className="flex justify-between items-center text-white ">
+          <div className="flex justify-between flex-wrap gap-5 ms-3 items-center text-white ">
             <div className="">
               <img src={logo} alt="" />
               <p className="w-85 py-5">
@@ -60,7 +60,7 @@ const Footer = () => {
           <hr className="text-[white]"/>
           <br></br>
 
-          <div className="flex justify-between text-white mt-5 ">
+          <div className="flex justify-between flex-wrap gap-7 ms-10 text-white mt-5 ">
             <h2>AVAILABLE FOR FREELANCE</h2>
             <ul className="flex gap-x-5 text-[16px]">
                 <li  >Work.</li>
