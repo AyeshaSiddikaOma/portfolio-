@@ -56,10 +56,11 @@ const Footer = () => {
             </div>
           </div>
 <br></br>
-          <hr />
+<br></br>
+          <hr className="text-[white]"/>
           <br></br>
 
-          <div className="flex justify-between text-white  ">
+          <div className="flex justify-between text-white mt-5 ">
             <h2>AVAILABLE FOR FREELANCE</h2>
             <ul className="flex gap-x-5 text-[16px]">
                 <li  >Work.</li>
