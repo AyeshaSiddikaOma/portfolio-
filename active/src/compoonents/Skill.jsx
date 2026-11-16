@@ -13,7 +13,7 @@ const Skill = () => {
     <>
       <div className=" bg-back py-30">
         <Container>
-         <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
+         <div className="flex flex-col items-start gap-5 md:flex-row sm:items-center sm:justify-between">
   <div>
     <h3 className="text-indigo font-sora font-semibold text-[12px]">
       My Recent Work
