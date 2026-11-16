@@ -18,11 +18,11 @@ function App() {
       <Pixel />
       <Help />
       <div
-        style={{ backgroundImage: `url(${line})` }}
-        className="bg-cover bg-center"
+        // style={{ backgroundImage: `url(${line})` }}
+        className="bg-cover bg-center bg-black py-10 "
       >
         <SliderTwo className="rotate-2 w-full bg-indigo" />
-        <SliderTwo className="-rotate-2 w-full " />
+        <SliderTwo className="-rotate-2 w-full "  />
       </div>
       <Blog/>
       <Footer />
