@@ -16,7 +16,7 @@ const Help = () => {
             </h3>
             <Headline head="Here's how I can help!" />
           </div>
-          <div className="flex justify-between py-20">
+          <div className="mt-20 flex flex-col items-center justify-center gap-8 sm:gap-10 lg:flex-row lg:gap-8 xl:gap-12">
             <HelpCart />
             <HelpCart />
             <HelpCart />

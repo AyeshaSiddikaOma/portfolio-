@@ -8,9 +8,9 @@ function Pixel() {
     <>
       <div className="bg-black py-30">
         <Container>
-          <div className="flex gap-x-17.5">
+          <div className="flex gap-x-17.5 flex-col  lg:flex-row ms-10">
             <div className="w-[50%] ">
-              <img src={bigimg} alt="" />
+              <img src={bigimg} alt="" className="" />
             </div>
             <div className="w-[50%]">
              <h3 className="text-indigo font-sora font-semibold text-[12px]">

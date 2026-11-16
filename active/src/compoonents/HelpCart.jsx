@@ -6,7 +6,7 @@ const HelpCart = () => {
       <div className="p-10 bg-black text-white w-[30%] rounded-4xl transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-105 hover:shadow-2xl">
         <img src={box} alt="" />
         <h2 className="text-[30px] font-bold text-white font-sora mt-3">Web Development</h2>
-        <p className="w-82.75 text-[16px] font-sora text-grey py-5" >
+        <p className="lg:w-82.75 text-[16px] font-sora text-grey py-5 w-full" >
           Conducting qualitative and quantitative research to understand user
           needs, behaviors, and pain points. Utilizing methods such as surveys,
           interviews, and usability testing to actionable insights.
