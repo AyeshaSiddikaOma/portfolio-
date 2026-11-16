@@ -6,6 +6,7 @@ import Pixel from "./compoonents/Pixel";
 import Help from "./compoonents/Help";
 import SliderTwo from "./compoonents/SliderTwo";
 import Footer from "./compoonents/Footer";
+import Blog from "./compoonents/Blog";
 import line from "./assets/line.png";
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <SliderTwo className="rotate-2 w-full bg-indigo" />
         <SliderTwo className="-rotate-2 w-full " />
       </div>
+      <Blog/>
       <Footer />
     </>
   );
