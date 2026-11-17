@@ -8,11 +8,11 @@ import man from "../assets/banner.png";
 const Banner = () => {
   return (
     <>
-            <div className=" bg-back">
+            <div className=" bg-back mt-15">
 
       <Container>
-        <div className="py-30 ">
-          <h1 className="text-white justify-center items-center text-[70px]    xxl:text-[203px]  font-sora flex font-semibold">
+        <div className="py-30  ">
+          <h1 className="text-white justify-center items-center text-[50px]    xxl:text-[203px]  font-sora flex font-semibold">
             <span>Hello </span>
             <span>
               <CircularText
@@ -39,14 +39,14 @@ const Banner = () => {
 
           <div className=" mt-5   flex flex-col  lg:flex-row  ">
             <div className="w-[70%]  flex  ">
-              <div className="w-[25%] hiddn  lg:block"></div>
+              <div className="w-[25%]   lg:block"></div>
               <div className="w-[80%] ">
                 <img src={man} alt="man" />
               </div>
             </div>
 
-            <div className="w-full max-w-[30%] sm:mx-auto py-10 ms-20">
-              <p className="xl:w-75.5 w-full text-grey font-[15px] font-sora">
+            <div className="w-full  lg:w-[30%]  sm:mx-auto py-10  ms-10">
+              <p className="xl:w-75.5   text-grey font-[15px] font-sora">
                 My role as a amplify tha story through my careful [Video Editor]
                 selection of footages, pacing, and visual style. My keen
                 attention to detail allows me to enhance the mood.
