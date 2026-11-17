@@ -25,7 +25,7 @@ function App() {
         <SliderTwo className="-rotate-2 w-full "  />
       </div>
       <Blog/>
-      <Footer />
+      <Footer /> 
     </>
   );
 }
