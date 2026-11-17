@@ -62,7 +62,7 @@ const ShinyText = ({
   followPointer = false,
   pauseOnHover = false,
   disabled = false,
-  className = 'text-[45px] w-127.25 font-bold font-sora',
+  className = 'text-[45px] lg:w-127.25 w-full font-bold font-sora',
   style
 }) => {
   const rootRef = useRef(null);

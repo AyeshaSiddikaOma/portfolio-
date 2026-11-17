@@ -28,16 +28,17 @@ function Pixel() {
                 marketing, email marketing,.
               </p>
               {/* box */}
-              <div className=" my-5 flex justify-between bg-back rounded-3xl ">
-                <div className="py-5 px-10  border-r-grey border-r " >
+              <div className=" my-5 flex flex-wrap   rounded-3xl ">
+                
+                <div className="  px-10 py-5 bg-back rounded-tl-2xl rounded-bl-2xl border-r-grey border-r " >
                   <h2 className="text-[48px] text-indigo font-bold font-sora" >30+</h2>
                   <h3 className=" text-grey font-[15px] font-sora">Years of Experience</h3>
                 </div>
-                <div className="py-5 px-10 bg-back    border-r-grey border-r " >
+                <div className=" px-10 py-5 bg-back    border-r-grey border-r " >
                   <h2 className="text-[48px] text-indigo font-bold font-sora" >100+</h2>
                   <h3 className=" text-grey font-[15px] font-sora">Years of Experience</h3>
                 </div>
-                <div className="py-5 px-10 bg-back  " >
+                <div className=" px-10 py-5 bg-back  rounded-tr-2xl rounded-br-2xl " >
                   <h2 className="text-[48px] text-indigo font-bold font-sora" >300+</h2>
                   <h3 className=" text-grey font-[15px] font-sora">Years of Experience</h3>
                 </div>
