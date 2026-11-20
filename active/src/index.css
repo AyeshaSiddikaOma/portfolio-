@@ -4,11 +4,10 @@
 
 @theme {
   --breakpoint-*: initial;
-  --breakpoint-sm: 570px;
-  --breakpoint-md: 720px;
-  --breakpoint-lg: 920px;
-  --breakpoint-xl: 1180px;
-  --breakpoint-xxl: 1500px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1290px;
   --font-sora: "Sora", sans-serif;
   --color-indigo: #8750F7;
   --color-dark: #2A1454;
@@ -21,7 +20,7 @@ body {
   overflow-x: hidden;
 }
 @utility container{
-    @apply max-w-[1780px] mx-auto 
+    @apply max-w-[1290px] mx-auto 
 }
 @utility btn {
     @apply flex  items-center font-sora transition-transform duration-300 hover:-translate-y-1 gap-4 bg-linear-to-r from-indigo via-dark to-indigo  py-3.75 px-8.75  text-white font-bold text-[15px] rounded-full
