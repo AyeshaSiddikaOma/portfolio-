@@ -8,9 +8,13 @@ import SliderTwo from "./compoonents/SliderTwo";
 import Footer from "./compoonents/Footer";
 import Blog from "./compoonents/Blog";
 import line from "./assets/line.png";
+
+
+
 function App() {
   return (
     <>
+
       <Navbar />
       <Banner />
       <Slider />
@@ -26,8 +30,11 @@ function App() {
       </div>
       <Blog/>
       <Footer /> 
+      
     </>
   );
 }
+
+
 
 export default App;

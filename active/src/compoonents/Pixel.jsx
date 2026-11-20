@@ -9,7 +9,7 @@ function Pixel() {
   return (
     <div className="bg-black py-16 sm:py-20 lg:py-30">
       <Container>
-        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-12 xl:gap-17.5">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-12 xl:gap-17.5 mx-5">
 
           {/* Image */}
           <div className="w-full lg:w-1/2">

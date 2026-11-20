@@ -14,22 +14,22 @@ const Skill = () => {
       <div className=" bg-back py-30">
         <Container>
          <div className="flex flex-col items-start gap-5 md:flex-row sm:items-center sm:justify-between">
-  <div>
+  <div className="mx-5">
     <h3 className="text-indigo font-sora font-semibold text-[12px]">
       My Recent Work
     </h3>
 
     <Headline
-      className="sm:max-w-full"
+      className="sm:max-w-full mx-4 "
       head="MY Mastering Video Editing Skills"
     />
   </div>
 
-  <div>
+  <div className="mx-5">
     <Button btnName="Learn More" />
   </div>
 </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-5">
             {/* Card One */}
             <SkillCard
               icon={icon}
