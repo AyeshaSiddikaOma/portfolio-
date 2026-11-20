@@ -7,7 +7,7 @@ const BlogCard = ({pic}) => {
         <span>business</span>
         <span>Nov 01, 2025</span>
       </p>
-      <h2 className="text-[30px] font-bold text-white font-sora mt-3">
+      <h2 className="text-[30px] font-bold text-white  font-sora mt-3">
         The Role of Technology in Modern Log
       </h2>
     </div>
