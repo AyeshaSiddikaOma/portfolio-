@@ -39,7 +39,7 @@ const settings = {
 };
   return (
     <>
-    <div className="bg-back ">
+    <div className="bg-back  ">
     <div className="  mx-auto bg-back">
 
       <Slider {...settings} className="w-full ">

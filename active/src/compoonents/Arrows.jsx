@@ -14,7 +14,7 @@ const Arrows = () => {
               <Headline
                 head="Recent work for
 MY clients!"
-                className="uppercase w-[442px] text-[45px] font-semibold tracking-tighter"
+                className="uppercase w-110.5 text-[45px] font-semibold tracking-tighter"
               />
             </div>
           </div>

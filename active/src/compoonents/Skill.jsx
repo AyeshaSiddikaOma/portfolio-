@@ -13,22 +13,22 @@ const Skill = () => {
     <>
       <div className=" bg-back py-30">
         <Container>
-         <div className="flex flex-col items-start gap-5 md:flex-row sm:items-center sm:justify-between">
-  <div className="mx-5">
-    <h3 className="text-indigo font-sora font-semibold text-[12px]">
-      My Recent Work
-    </h3>
+          <div className="flex flex-col items-start gap-5 md:flex-row sm:items-center sm:justify-between">
+            <div className="mx-5">
+              <h3 className="text-indigo font-sora font-semibold text-[12px]">
+                My Recent Work
+              </h3>
 
-    <Headline
-      className="sm:max-w-full mx-4 "
-      head="MY Mastering Video Editing Skills"
-    />
-  </div>
+              <Headline
+                className="sm:max-w-full w-[460px] font-bold font-sora text-[45px]  "
+                head="MY Mastering Video Editing Skills"
+              />
+            </div>
 
-  <div className="mx-5">
-    <Button btnName="Learn More" />
-  </div>
-</div>
+            <div className="mx-5">
+              <Button btnName="Learn More" />
+            </div>
+          </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-5">
             {/* Card One */}
             <SkillCard
@@ -38,7 +38,8 @@ const Skill = () => {
              used motion graphics."
               percent="50"
               head="Adobe AfterEffect"
-              oma="50"
+                            oma="50"
+
             />
             {/* Card One */}
 
@@ -49,7 +50,8 @@ const Skill = () => {
              used motion graphics."
               percent="70"
               head="Adobe AfterEffect"
-              oma="70"
+                            oma="70"
+
             />
             {/* Card One */}
 
@@ -60,7 +62,8 @@ const Skill = () => {
              used motion graphics."
               percent="60"
               head="Adobe AfterEffect"
-              oma="w-10%"
+                            oma="60"
+
             />
             {/* Card One */}
 
@@ -71,7 +74,7 @@ const Skill = () => {
              used motion graphics."
               percent="100"
               head="Adobe AfterEffect"
-              oma="w-100%"
+              oma="100"
             />
           </div>
         </Container>

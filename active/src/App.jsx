@@ -25,11 +25,11 @@ function App() {
                   <SimpleSlider/>
 
       <div
-        // style={{ backgroundImage: `url(${line})` }}
-        className="bg-cover bg-center bg-black py-10 "
+        style={{ backgroundImage: `url(${line})` }}
+        className="bg-cover bg-center bg-back h-50  "
       >
         <SliderTwo className="rotate-2 w-full bg-indigo" />
-        <SliderTwo className="-rotate-2 w-full "  />
+        <SliderTwo className="-rotate-2 w-full bg-transparent "  />
       </div>
 <Client/>
 

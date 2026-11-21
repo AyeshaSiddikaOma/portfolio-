@@ -1,5 +1,5 @@
 import React from "react";
-const SkillCard = ({ head, percent, icon, description ,oma}) => {
+const SkillCard = ({ head, percent, icon, description,oma }) => {
   return (
     <>
       <div className="py-10 bg-black px-7 rounded-4xl  box-border  transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-xl">
@@ -15,8 +15,9 @@ const SkillCard = ({ head, percent, icon, description ,oma}) => {
         <div className="mb-1 text-sm text-white font-medium text-heading text-right">
           {percent}<b>%</b>
         </div>
-        <div className="w-full bg-white rounded-full h-1.5">
-          <div className={`bg-indigo h-1.5 rounded-full ${oma} `}></div>
+        <div className=" bg-white rounded-full h-1.5">
+          <div className={`bg-indigo h-1.5  rounded-full  `}    style={{ width: `${oma}%` }}
+  ></div>
         </div>
       </div>
     </>

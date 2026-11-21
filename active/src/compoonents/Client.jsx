@@ -6,7 +6,7 @@ import VerticalSwipeToSlide from "./VerticalSwipeToSlide";
 
 const Client = () => {
   return (
-    <section className="bg-back py-20 sm:py-28 lg:py-40">
+    <section className="bg-back py-20 sm:py-28 lg:py-40  ">
       <Container>
         <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-16">
 
