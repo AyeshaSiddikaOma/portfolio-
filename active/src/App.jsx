@@ -10,7 +10,7 @@ import Blog from "./compoonents/Blog";
 import line from "./assets/line.png";
 import Arrows from "./compoonents/Arrows";
 import SimpleSlider from "./compoonents/SimpleSlider"
-
+import  Client from "./compoonents/Client"
 function App() {
   return (
     <>
@@ -31,9 +31,10 @@ function App() {
         <SliderTwo className="rotate-2 w-full bg-indigo" />
         <SliderTwo className="-rotate-2 w-full "  />
       </div>
+<Client/>
+
       <Blog/>
       <Footer /> 
-
     </>
   );
 }
