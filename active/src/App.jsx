@@ -8,6 +8,7 @@ import SliderTwo from "./compoonents/SliderTwo";
 import Footer from "./compoonents/Footer";
 import Blog from "./compoonents/Blog";
 import line from "./assets/line.png";
+import Arrows from "./compoonents/Arrows";
 import SimpleSlider from "./compoonents/SimpleSlider"
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       <Skill />
       <Pixel />
       <Help />
+      <Arrows/>
+                  <SimpleSlider/>
+
       <div
         // style={{ backgroundImage: `url(${line})` }}
         className="bg-cover bg-center bg-black py-10 "
@@ -28,7 +32,7 @@ function App() {
       </div>
       <Blog/>
       <Footer /> 
-      <SimpleSlider/>
+
     </>
   );
 }

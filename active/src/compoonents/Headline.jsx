@@ -3,7 +3,7 @@ import ShinyText from '../compoonents/shinyText/ShinyText';
 
 import React from 'react'
 
-const Headline = ({head}) => {
+const Headline = ({head,className}) => {
   return (
     
 <ShinyText
@@ -24,6 +24,7 @@ const Headline = ({head}) => {
   followPointer={false}
   pauseOnHover={false}
   disabled={false}
+  className={className}
 />
   )
 }

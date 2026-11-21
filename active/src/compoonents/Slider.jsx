@@ -1,5 +1,6 @@
 import LogoLoop from './logoloop/LogoLoop';
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+
 import imgOne from "../assets/spon1.png"
 import imgTwo from "../assets/spon2.png"
 import imgThree from "../assets/spon3.png"
