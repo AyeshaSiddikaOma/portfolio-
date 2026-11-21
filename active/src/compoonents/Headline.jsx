@@ -24,9 +24,8 @@ const Headline = ({head,className}) => {
   followPointer={false}
   pauseOnHover={false}
   disabled={false}
-  className={className}
-/>
-  )
+className={`w-[460px] max-w-full text-2xl  sm:text-3xl md:text-4xl lg:text-5xl font-bold font-sora ${className}`}
+/>  )
 }
 
 export default Headline

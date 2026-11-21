@@ -4,7 +4,7 @@ import Headline from "./Headline";
 const Arrows = () => {
   return (
     <>
-      <div className="bg-back py-10">
+      <div className="bg-back py-10 px-4">
         <Container>
           <div className="flex">
             <div className="text">
@@ -14,7 +14,6 @@ const Arrows = () => {
               <Headline
                 head="Recent work for
 MY clients!"
-                className="uppercase w-110.5 text-[45px] font-semibold tracking-tighter"
               />
             </div>
           </div>

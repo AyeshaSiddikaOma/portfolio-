@@ -20,7 +20,7 @@ const Skill = () => {
               </h3>
 
               <Headline
-                className="sm:max-w-full w-[460px] font-bold font-sora text-[45px]  "
+              
                 head="MY Mastering Video Editing Skills"
               />
             </div>
