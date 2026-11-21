@@ -17,7 +17,8 @@ const Blog = () => {
             <Headline head="Here's how I can help!" />
           </div>
           <div className="mt-20 flex flex-col items-center justify-center gap-8 sm:gap-10 lg:flex-row lg:gap-8 xl:gap-12">
-            <BlogCard pic={laptop} />
+            <BlogCard pic={laptop} classs="font-[16px] text-grey" pera="New Age" text="The Role of Technology
+in Modern Log" classname="font-bold text-white text-[20px] font-sora uppercase" />
             <BlogCard pic={bura} />
             <BlogCard pic={laptop} />
           </div>
