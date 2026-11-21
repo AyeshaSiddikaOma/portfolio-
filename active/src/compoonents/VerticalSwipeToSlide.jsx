@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Comment from "./Comment"
+import mini from "../assets/mini.png";
+
 import Hi from "react-slick";
 const Slider = Hi?.default || Hi
 
@@ -26,7 +28,7 @@ function VerticalSwipeToSlide() {
       <Slider {...settings}>
 
         <div>
-          <Comment/>
+          <Comment mini={mini}/>
         </div>
         <div>
           <Comment/>

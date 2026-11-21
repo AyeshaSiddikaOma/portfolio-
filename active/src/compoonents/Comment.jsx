@@ -1,6 +1,5 @@
 import React from "react";
-import mini from "../assets/mini.png";
-const Comment = () => {
+const Comment = ({mini}) => {
   return (
     <>
       <div className="max-w-90% mt-5 px-5 mb-5 text-grey mx-auto border-2 py-10 rounded-3xl border-indigo ">
