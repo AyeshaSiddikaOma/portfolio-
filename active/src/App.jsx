@@ -1,6 +1,6 @@
 import Navbar from "./compoonents/Navbar";
 import Banner from "./compoonents/Banner";
-import Slider from "./compoonents/Slider";
+ import Slider from "./compoonents/Slider";
 import Skill from "./compoonents/Skill";
 import Pixel from "./compoonents/Pixel";
 import Help from "./compoonents/Help";
@@ -10,6 +10,7 @@ import Blog from "./compoonents/Blog";
 import line from "./assets/line.png";
 import Arrows from "./compoonents/Arrows";
 import SimpleSlider from "./compoonents/SimpleSlider"
+
 function App() {
   return (
     <>
