@@ -1,28 +1,35 @@
+
 import React from "react";
 import Container from "./Container";
 import Headline from "./Headline";
+import VerticalSwipeToSlide from "./VerticalSwipeToSlide";
+
 const Client = () => {
   return (
-    <>
-      <div className="bg-back py-20">
-        <Container>
-          <div className="flex  justify-between">
-            <div className="">
-              <h3 className="text-indigo font-sora font-semibold text-[12px]">
-                My Recent Work
-              </h3>
-              <Headline
-                head="Let’s Hear From
-Dear Clients."
-                className="tracking-tight w-97.5 text-[45px] font-bold"
-              />
-            </div>
-            <div className="">
-            </div>
+    <section className="bg-back py-20 sm:py-28 lg:py-40">
+      <Container>
+        <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-16">
+
+          {/* Left Content */}
+          <div className="w-full lg:w-[35%]">
+            <h3 className="text-indigo font-sora font-semibold text-xs mb-3">
+              My Recent Work
+            </h3>
+
+            <Headline
+              head="Let’s Hear From Dear Clients."
+              className="tracking-tight w-full text-3xl sm:text-4xl lg:text-[45px] font-bold"
+            />
           </div>
-        </Container>
-      </div>
-    </>
+
+          {/* Right Slider */}
+          <div className="w-full lg:w-[65%] min-w-0 overflow-hidden">
+            <VerticalSwipeToSlide />
+          </div>
+
+        </div>
+      </Container>
+    </section>
   );
 };
 

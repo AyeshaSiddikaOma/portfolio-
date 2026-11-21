@@ -83,7 +83,9 @@ border-radius:30px;
     margin-left:-90px;
 
 }
-
+.slick-dots li:last-child button:before{
+  margin-left:-60px;
+}
 
 .next-arrow,
 .prev-arrow {
