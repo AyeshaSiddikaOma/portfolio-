@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Comment from "./Comment"
 import mini from "../assets/mini.png";
+import mini2 from "../assets/mini2.png";
 
 import Hi from "react-slick";
 const Slider = Hi?.default || Hi
@@ -15,7 +16,7 @@ function VerticalSwipeToSlide() {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
-    swipeToSlide: true,
+    swipeToSlide: false,
     beforeChange: function(currentSlide, nextSlide) {
       console.log("before change", currentSlide, nextSlide);
     },
@@ -31,18 +32,9 @@ function VerticalSwipeToSlide() {
           <Comment mini={mini}/>
         </div>
         <div>
-          <Comment/>
+          <Comment mini={mini2}/>
         </div>
-        <div>
-          <Comment/>
-        </div>
-        <div>
-          <Comment/>
-        </div>
-        <div>
-          <Comment/>
-        </div>
-
+        
 
         
 
