@@ -16,7 +16,7 @@ const Banner = () => {
         <div className="py-12 sm:py-16 md:py-20 lg:py-24 xl:py-30">
 
           {/* Heading */}
-          <h1 className="text-white flex justify-center items-center text-[38px] sm:text-[55px] md:text-[85px] lg:text-[115px] xl:text-[180px] font-sora font-semibold tracking-tighter whitespace-nowrap">
+          <h1 className="text-white flex gap-x-4 justify-center items-center text-[38px] sm:text-[55px] md:text-[85px] lg:text-[115px] xl:text-[180px] font-sora font-semibold tracking-tighter whitespace-nowrap">
 
             <span>Hello</span>
 
