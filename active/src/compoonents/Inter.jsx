@@ -5,6 +5,7 @@ import orange from "../assets/orange.png";
 import vector2 from "../assets/vector2.png";
 import vector from "../assets/Vector.png";
 import Line from "./Line";
+
 const Inter = () => {
   return (
     <>
@@ -43,7 +44,7 @@ or-less normal awards in the fields."
               date="2022 - 2023"
             />
             <Line
-              pic={vector2}
+              pic={orange}
               hline="Senior Product Designer"
               sline="VirtusLab"
               pera="I'm winner of the world's most prestigious web designthat has more-
