@@ -29,13 +29,19 @@ Achievements"
             />
           </center>
           <div className="text-white  bg-indigo flex w-125 py-3 px-5 mt-10 gap-x-5 rounded-4xl  mx-auto   ">
-            <button  onClick={() => setActive(1)} className=" cursor-pointer  px-6.25 py-3 bg-black rounded-3xl font-bold font-sora text-[15px]">
+            <button  onClick={() => setActive(1)} className={`cursor-pointer px-6.25 py-3 rounded-3xl ${
+  active === 1 ? "bg-black text-white font-bold" : "bg-indigo text-white  font-bold"
+}`}>
               Exprerience
             </button>
-            <button  onClick={() => setActive(2)} className=" cursor-pointer  px-6.25 py-3 bg-black rounded-3xl font-bold font-sora text-[15px]">
+            <button  onClick={() => setActive(2)} className={`cursor-pointer px-6.25 py-3 rounded-3xl ${
+  active === 2 ? "bg-black text-white font-bold" : "bg-indigo text-white  font-bold"
+}`} >
               Development
             </button>
-            <button  onClick={() => setActive(3)} className=" cursor-pointer  px-6.25 py-3 bg-black rounded-3xl font-bold font-sora text-[15px]">
+            <button  onClick={() => setActive(3)} className={`cursor-pointer px-6.25 py-3 rounded-3xl ${
+  active === 3 ? "bg-black text-white font-bold" : "bg-indigo text-white  font-bold"
+}`}>
               Awards
             </button>
           </div>

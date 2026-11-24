@@ -24,7 +24,7 @@ function App() {
       <Pixel />
       <Help />
       <Arrows/>
-                  <SimpleSlider/>
+      <SimpleSlider/>
       
       <div
         style={{ backgroundImage: `url(${line})` }}
