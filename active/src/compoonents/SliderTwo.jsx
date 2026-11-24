@@ -11,7 +11,7 @@ const imageLogos = [
 function Slider({className}) {
   return (
   <div
-      className={`relative py-0.5 overflow-hidden bg-[#140C1C] ${className}`}
+      className={`relative py-0.5  overflow-hidden bg-[#140C1C] ${className}`}
     >      <LogoLoop
         logos={imageLogos}
         speed={100}

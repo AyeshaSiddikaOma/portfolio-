@@ -12,6 +12,7 @@ import Arrows from "./compoonents/Arrows";
 import SimpleSlider from "./compoonents/SimpleSlider"
 import  Client from "./compoonents/Client"
 import Inter from "./compoonents/Inter";
+
 function App() {
   return (
     <>
@@ -27,7 +28,7 @@ function App() {
       
       <div
         style={{ backgroundImage: `url(${line})` }}
-        className="bg-cover bg-center bg-back h-50  "
+        className="bg-cover  bg-center bg-back h-50  "
       >
         <SliderTwo className="rotate-2 w-full bg-indigo" />
         <SliderTwo className="-rotate-2 w-full bg-transparent "  />
@@ -37,6 +38,7 @@ function App() {
 
       <Blog/>
       <Footer /> 
+  
     </>
   );
 }

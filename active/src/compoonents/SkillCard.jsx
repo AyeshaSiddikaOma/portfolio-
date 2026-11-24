@@ -9,7 +9,7 @@ const SkillCard = ({ head, percent, icon, description,oma }) => {
             {head}
           </h3>
         </div>
-        <p className=" py-5 text-grey font-[15px] mt-5 font-sora">
+        <p className=" py-5 w-[237px] tracking-tighter text-grey text-[16px] font-normal mt-5 font-sora">
           {description}
         </p>
         <div className="mb-1 text-sm text-white font-medium text-heading text-right">

@@ -15,9 +15,8 @@ const Skill = () => {
         <Container>
           <div className="flex flex-col items-start gap-5 md:flex-row sm:items-center sm:justify-between">
             <div className="mx-5">
-              <h3 className="text-indigo font-sora font-semibold text-[12px]">
-                My Recent Work
-              </h3>
+                 <h3 className="text-indigo font-sora font-semibold uppercase mb-4 text-[12px]">
+Behind the Pixels            </h3>
 
               <Headline
               

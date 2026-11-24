@@ -11,9 +11,8 @@ const Help = () => {
       <div className="bg-back py-15">
         <Container>
           <div className="text-center">
-            <h3 className="text-indigo font-sora font-semibold text-[12px]">
-              my services
-            </h3>
+              <h3 className="text-indigo font-sora font-semibold uppercase mb-4 text-center text-[12px]">
+Behind the Pixels            </h3>
             <Headline head="Here's how I can help!" />
           </div>
           <div className="mt-20 mx-5 flex flex-col items-center justify-center gap-8 md:gap-10 lg:flex-row lg:items-stretch lg:gap-6 xl:gap-10">

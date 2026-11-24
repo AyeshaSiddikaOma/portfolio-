@@ -23,9 +23,8 @@ function Pixel() {
           {/* Content */}
           <div className="w-full lg:w-1/2">
 
-            <h3 className="text-indigo font-sora font-semibold text-[12px]">
-              My Recent Work
-            </h3>
+              <h3 className="text-indigo font-sora font-semibold uppercase mb-4 text-[12px]">
+Behind the Pixels            </h3>
 
             <Headline
               head="Passionate On Digital Marketer Focused on Driving Results."

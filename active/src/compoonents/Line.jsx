@@ -1,6 +1,6 @@
 import React from "react";
 
-const Lines = ({ pic, hline, sline, pera, vector, date }) => {
+const Lines = ({ pic, hline, sline, pera, vector, date,customClass }) => {
   return (
     <div className="mt-5 ">
       <div className="flex flex-col lg:flex-row text-white justify-between gap-5 lg:gap-0 mt-5">
@@ -33,8 +33,8 @@ const Lines = ({ pic, hline, sline, pera, vector, date }) => {
           <span className="text-[15px] text-grey font-sora">{date}</span>
         </div>
       </div>
+<div className={`w-full h-0.5 my-6 sm:my-10   ${customClass}`}></div>
 
-      <div className="w-full h-0.5 my-6 sm:my-10 bg-grey"></div>
     </div>
   );
 };

@@ -39,6 +39,7 @@ body {
     @apply w-full;
   }
 }
+
 .slick-slider {
   padding-bottom: 35px;
 }
@@ -65,13 +66,34 @@ body {
 }
 
 
+
+
+.slick-dots li button:before {
+  content:""!important;
+  margin-top:-50px;
+    border: 0;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0px;
+    font-size: 0px;
+    color: green;
+    padding: 5px;
+    cursor: pointer;
+    background-color: yellow;
+   border-radius: 50px;
+   display:block;
+}
+
+
 .slick-dots li:first-child button:before {
   content: "" !important;
   font-size: 30px !important;
-  background: white!important;
-  margin-top: -50px;
-  border-radius:30px;
-    margin-left:20px;
+  background: red!important;
+  margin-top: -70px;
+  z-index:100000;
+
 
 
 }
@@ -79,30 +101,13 @@ body {
 .slick-dots li:last-child button:before {
   content: "" !important;
   font-size: 30px !important;
-    background: white!important;
+    background: blue!important;
 border-radius:30px;
-    margin-top: -50px;
-    margin-left:-90px;
 
-}
+} 
+
+
+
 .slick-dots li:last-child button:before{
-  margin-left:-100px;
-}
-
-.next-arrow,
-.prev-arrow {
-  position: absolute;
-  top: -100px;
-  color:white;
-  z-index: 10;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.prev-arrow {
-  left: 90%;
-}
-
-.next-arrow {
-  right: 50px;
+  margin-top:-24px
 }

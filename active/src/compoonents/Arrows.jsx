@@ -8,9 +8,8 @@ const Arrows = () => {
         <Container>
           <div className="flex">
             <div className="text">
-              <h3 className="text-indigo font-sora font-semibold text-[12px]">
-                My Recent Work
-              </h3>
+                  <h3 className="text-indigo font-sora font-semibold uppercase mb-4 text-[12px]">
+Behind the Pixels            </h3>
               <Headline
                 head="Recent work for
 MY clients!"

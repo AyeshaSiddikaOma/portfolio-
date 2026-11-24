@@ -11,9 +11,8 @@ const Blog = () => {
       <div className="py-30 bg-back ">
         <Container>
           <div className="text-center">
-            <h3 className="text-indigo font-sora font-semibold text-[12px]">
-              my services
-            </h3>
+    <h3 className="text-indigo font-sora font-semibold uppercase text-center text-[12px]">
+Behind the Pixels            </h3>
             <Headline head="Here's how I can help!" />
           </div>
           <div className="mt-20 flex flex-col items-center justify-center gap-8 sm:gap-10 lg:flex-row lg:gap-8 xl:gap-12">
